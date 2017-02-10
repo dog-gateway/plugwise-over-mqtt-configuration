@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dogrules:ruleList xsi:schemaLocation="http://elite.polito.it/domotics/dog/rules/rule_definition rule_definition.xsd " xmlns:dogrules="http://elite.polito.it/domotics/dog/rules/rule_definition" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    
+	<!-- disconnect when consumption Too High -->
+	<dogrules:rule name="consumptionHigh">
+        <dogrules:if>
+            <dogrules:event>
+                <dogrules:notification name="newActivePowerValue" class="SinglePhaseActivePowerMeasurementNotification" fromDevice="MeteringPowerOutlet_000D6F0000599C85"/>
+            </dogrules:event>
+            <dogrules:when>
+                <dogrules:state class="SinglePhaseActivePowerMeasurementState" ofDevice="MeteringPowerOutlet_000D6F0000599C85" value="5.0" evaluator="&gt;"/>
+            </dogrules:when>
+        </dogrules:if>
+        <dogrules:then>
+            <dogrules:action>
+                <dogrules:command name="on" class="OnOffFunctionality" toDevice="MeteringPowerOutlet_000D6F0000B1BDE9"/>
+            </dogrules:action>
+        </dogrules:then>
+    </dogrules:rule>
+    
+    <!-- disconnect when consumption Too High -->
+	<dogrules:rule name="consumptionLow">
+        <dogrules:if>
+            <dogrules:event>
+                <dogrules:notification name="newActivePowerValue" class="SinglePhaseActivePowerMeasurementNotification" fromDevice="MeteringPowerOutlet_000D6F0000599C85"/>
+            </dogrules:event>
+            <dogrules:when>
+                <dogrules:state class="SinglePhaseActivePowerMeasurementState" ofDevice="MeteringPowerOutlet_000D6F0000599C85" value="5.0" evaluator="&lt;"/>
+            </dogrules:when>
+        </dogrules:if>
+        <dogrules:then>
+            <dogrules:action>
+                <dogrules:command name="off" class="OnOffFunctionality" toDevice="MeteringPowerOutlet_000D6F0000B1BDE9"/>
+            </dogrules:action>
+        </dogrules:then>
+    </dogrules:rule>
+	
+</dogrules:ruleList>

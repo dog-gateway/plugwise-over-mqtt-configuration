@@ -100,5 +100,1416 @@
                 </dhc:statevalues>
             </dhc:state>
         </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F000011F084" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F000011F084" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F000011F084" id="OffCommand_MeteringPowerOutlet_000D6F000011F084">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F000011F084" id="OnCommand_MeteringPowerOutlet_000D6F000011F084">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000011F084" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000011F084">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000011F084" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000011F084">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F000011F084">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F000011F084">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F000059AFCD" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F000059AFCD" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F000059AFCD" id="OffCommand_MeteringPowerOutlet_000D6F000059AFCD">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F000059AFCD" id="OnCommand_MeteringPowerOutlet_000D6F000059AFCD">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000059AFCD" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000059AFCD">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000059AFCD" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000059AFCD">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F000059AFCD">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F000059AFCD">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F000059ADEC" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F000059ADEC" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F000059ADEC" id="OffCommand_MeteringPowerOutlet_000D6F000059ADEC">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F000059ADEC" id="OnCommand_MeteringPowerOutlet_000D6F000059ADEC">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000059ADEC" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000059ADEC">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000059ADEC" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000059ADEC">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F000059ADEC">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F000059ADEC">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F00004BC264" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F00004BC264" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F00004BC264" id="OffCommand_MeteringPowerOutlet_000D6F00004BC264">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F00004BC264" id="OnCommand_MeteringPowerOutlet_000D6F00004BC264">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F00004BC264" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F00004BC264">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F00004BC264" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F00004BC264">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F00004BC264">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F00004BC264">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F0000599C8D" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F0000599C8D" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F0000599C8D" id="OffCommand_MeteringPowerOutlet_000D6F0000599C8D">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F0000599C8D" id="OnCommand_MeteringPowerOutlet_000D6F0000599C8D">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000599C8D" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000599C8D">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000599C8D" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000599C8D">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F0000599C8D">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F0000599C8D">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F00004BFA54" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F00004BFA54" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F00004BFA54" id="OffCommand_MeteringPowerOutlet_000D6F00004BFA54">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F00004BFA54" id="OnCommand_MeteringPowerOutlet_000D6F00004BFA54">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F00004BFA54" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F00004BFA54">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F00004BFA54" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F00004BFA54">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F00004BFA54">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F00004BFA54">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F000011F024" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F000011F024" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F000011F024" id="OffCommand_MeteringPowerOutlet_000D6F000011F024">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F000011F024" id="OnCommand_MeteringPowerOutlet_000D6F000011F024">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000011F024" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000011F024">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000011F024" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000011F024">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F000011F024">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F000011F024">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F0000B1BDE9" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F0000B1BDE9" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F0000B1BDE9" id="OffCommand_MeteringPowerOutlet_000D6F0000B1BDE9">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F0000B1BDE9" id="OnCommand_MeteringPowerOutlet_000D6F0000B1BDE9">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000B1BDE9" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000B1BDE9">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000B1BDE9" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000B1BDE9">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F0000B1BDE9">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F0000B1BDE9">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F000011EAF9" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F000011EAF9" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F000011EAF9" id="OffCommand_MeteringPowerOutlet_000D6F000011EAF9">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F000011EAF9" id="OnCommand_MeteringPowerOutlet_000D6F000011EAF9">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000011EAF9" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000011EAF9">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000011EAF9" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000011EAF9">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F000011EAF9">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F000011EAF9">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F00004ED05F" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F00004ED05F" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F00004ED05F" id="OffCommand_MeteringPowerOutlet_000D6F00004ED05F">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F00004ED05F" id="OnCommand_MeteringPowerOutlet_000D6F00004ED05F">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F00004ED05F" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F00004ED05F">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F00004ED05F" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F00004ED05F">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F00004ED05F">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F00004ED05F">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F0000551264" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F0000551264" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F0000551264" id="OffCommand_MeteringPowerOutlet_000D6F0000551264">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F0000551264" id="OnCommand_MeteringPowerOutlet_000D6F0000551264">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000551264" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000551264">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000551264" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000551264">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F0000551264">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F0000551264">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F000011ECE4" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F000011ECE4" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F000011ECE4" id="OffCommand_MeteringPowerOutlet_000D6F000011ECE4">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F000011ECE4" id="OnCommand_MeteringPowerOutlet_000D6F000011ECE4">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000011ECE4" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000011ECE4">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000011ECE4" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000011ECE4">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F000011ECE4">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F000011ECE4">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F0000599C85" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F0000599C85" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F0000599C85" id="OffCommand_MeteringPowerOutlet_000D6F0000599C85">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F0000599C85" id="OnCommand_MeteringPowerOutlet_000D6F0000599C85">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000599C85" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000599C85">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000599C85" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000599C85">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F0000599C85">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F0000599C85">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F000011BDBE" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F000011BDBE" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F000011BDBE" id="OffCommand_MeteringPowerOutlet_000D6F000011BDBE">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F000011BDBE" id="OnCommand_MeteringPowerOutlet_000D6F000011BDBE">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000011BDBE" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F000011BDBE">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000011BDBE" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F000011BDBE">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F000011BDBE">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F000011BDBE">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F0000469594" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F0000469594" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F0000469594" id="OffCommand_MeteringPowerOutlet_000D6F0000469594">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F0000469594" id="OnCommand_MeteringPowerOutlet_000D6F0000469594">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000469594" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000469594">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000469594" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000469594">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F0000469594">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F0000469594">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F0000113547" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F0000113547" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F0000113547" id="OffCommand_MeteringPowerOutlet_000D6F0000113547">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F0000113547" id="OnCommand_MeteringPowerOutlet_000D6F0000113547">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000113547" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F0000113547">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000113547" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F0000113547">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F0000113547">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F0000113547">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
+        <dhc:device class="MeteringPowerOutlet" id="MeteringPowerOutlet_000D6F00005510F6" domoticSystem="plugwisemqtt" gateway="plugwise2py">
+            <dhc:description>New Device of type MeteringPowerOutlet</dhc:description>
+            <dhc:isIn></dhc:isIn>
+            <dhc:param name="macAddress" value="000D6F00005510F6" type="network"/>
+            <dhc:controlFunctionality class="OnOffFunctionality">
+                <dhc:commands>
+                    <dhc:command class="OffCommand" name="OffCommand_MeteringPowerOutlet_000D6F00005510F6" id="OffCommand_MeteringPowerOutlet_000D6F00005510F6">
+                        <dhc:param name="realCommandName" value="off"/>
+                    </dhc:command>
+                    <dhc:command class="OnCommand" name="OnCommand_MeteringPowerOutlet_000D6F00005510F6" id="OnCommand_MeteringPowerOutlet_000D6F00005510F6">
+                        <dhc:param name="realCommandName" value="on"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActivePowerMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActivePowerCommand" name="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F00005510F6" id="Get1PhaseActivePowerCommand_MeteringPowerOutlet_000D6F00005510F6">
+                        <dhc:param name="realCommandName" value="getActivePower"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:controlFunctionality class="SinglePhaseActiveEnergyMeasurementFunctionality">
+                <dhc:commands>
+                    <dhc:command class="Get1PhaseActiveEnergyCommand" name="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F00005510F6" id="Get1PhaseActiveEnergyCommand_MeteringPowerOutlet_000D6F00005510F6">
+                        <dhc:param name="realCommandName" value="getActiveEnergyValue"/>
+                        <dhc:param name="returnType" value="Measure"/>
+                    </dhc:command>
+                </dhc:commands>
+            </dhc:controlFunctionality>
+            <dhc:notificationFunctionality class="OnOffNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="OnNotification" id="OnNotification_MeteringPowerOutlet_000D6F00005510F6">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="on"/>
+                    </dhc:notification>
+                    <dhc:notification class="OffNotification" id="OffNotification_MeteringPowerOutlet_000D6F00005510F6">
+                        <dhc:param name="nParams" value="0"/>
+                        <dhc:param name="notificationName" value="off"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActivePowerMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActivePowerMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActivePowerValue"/>
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:notificationFunctionality class="SinglePhaseActiveEnergyMeasurementNotificationFunctionality">
+                <dhc:notifications>
+                    <dhc:notification class="SinglePhaseActiveEnergyMeasurementNotification">
+                        <dhc:param name="nParams" value="2"/>
+                        <dhc:param name="notificationName" value="newActiveEnergyValue"/>
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                        <dhc:param name="notificationParamName" value="value" type="Measure"/>
+                    </dhc:notification>
+                </dhc:notifications>
+            </dhc:notificationFunctionality>
+            <dhc:state class="OnOffState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="OffStateValue" name="off"/>
+                    <dhc:statevalue class="OnStateValue" name="on"/>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseEnergyMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActiveEnergyStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="Wh"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+            <dhc:state class="SinglePhaseActivePowerMeasurementState">
+                <dhc:statevalues>
+                    <dhc:statevalue class="SinglePhaseActivePowerStateValue" name="">
+                        <dhc:param name="unitOfMeasure" value="W"/>
+                    </dhc:statevalue>
+                </dhc:statevalues>
+            </dhc:state>
+        </dhc:device>
     </dhc:controllables>
 </dhc:dogHomeConfiguration>
